@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "groq": {
+      "apiKey": "your_groq_api_key"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "provider": "groq",
+      "model": "groq/openai/gpt-oss-120b"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "8409777664:AAFZdemotokenaXupVMn1M3qav3yj_s",
+      "allowFrom": ["8433your_tg_id67"]
+    }
+  }
+}
