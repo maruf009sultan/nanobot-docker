@@ -1,0 +1,21 @@
+{
+  "providers": {
+    "custom": {
+      "apiKey": "csk-wdemo-api-key-8v9xctwh9yx3xwre88",
+      "apiBase": "https://api.cerebras.ai/v1"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "provider": "custom",
+      "model": "custom/gpt-oss-120b"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "8409777664:AAFZJdemo-tokenyj_s",
+      "allowFrom": ["8tg_id67"]
+    }
+  }
+}
